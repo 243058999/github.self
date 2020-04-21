@@ -1,0 +1,13 @@
+#springcloud
+server:
+    port: 8081
+
+spring:
+    application:
+        name: client
+
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8080/eureka/
+env: success
